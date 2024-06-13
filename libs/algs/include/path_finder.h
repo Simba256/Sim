@@ -39,6 +39,7 @@ std::vector<std::vector<glm::ivec2>> getNextStates(
     
     int heuristic(const glm::ivec2& start, const glm::ivec2& end);
     int heuristic(const std::vector<glm::ivec2>& start, const std::vector<glm::ivec2>& end);
+    // overloading heuristic
     // Add more algorithm functions as needed
 };
 
